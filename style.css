@@ -124,3 +124,27 @@ h1:hover{
 .aside__product img{
     width: 7rem;
 }
+
+/* Dark Mode */
+
+.darkModeImg {
+    display: flex;
+    justify-content: end;
+    margin: 1rem;
+}
+.darkModeImg:hover{
+    cursor: pointer;
+}
+
+.darkMode{
+    background-color: rgb(69, 67, 67);
+    h1, h2, p{ 
+        color: rgb(150, 145, 138);
+    }
+
+
+    .section__product, .navegation:hover{
+        background-color: rgb(158, 179, 179);
+    }
+
+}
