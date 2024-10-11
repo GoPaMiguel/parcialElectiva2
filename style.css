@@ -1,0 +1,62 @@
+.container {
+  background-color: rgb(213, 220, 220);
+  margin: auto;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.navegation {
+  text-decoration: none;
+  color: rgb(56, 126, 187);
+  font-weight: 700;
+  font-size: larger;
+}
+
+.navegation:hover{
+    font-size: x-large;
+    padding: .5rem;
+    background-color: rgb(66, 65, 65);
+    border-radius: 1rem;
+    color: antiquewhite;
+}
+
+.section__Head img{
+    width: 100%;
+}
+
+.main {
+  max-width: 90%;
+  /* background-color: aqua; */
+}
+
+.img__aside {
+  width: 5rem;
+  height: 5rem;
+}
+
+.section__Tribunal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.About__Tribunal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    gap: 4rem;
+}
