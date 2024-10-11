@@ -1,14 +1,23 @@
 .container {
-  background-color: rgb(213, 220, 220);
-  margin: auto;
-  max-width: 80%;
-  display: flex;
-  flex-direction: column;
+    background-color: rgb(213, 220, 220);
+    margin: auto;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 h1, h2 {
     text-align: center;
     text-transform: uppercase;
+}
+h1:hover{
+    cursor: pointer;
+    font-size: 2.5em;
 }
 
 .header {
@@ -17,10 +26,12 @@ h1, h2 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
+  h1{
+    font-size: 4rem;
+  }
 }
 
 .navegation {
-  text-decoration: none;
   color: rgb(56, 126, 187);
   font-weight: 700;
   font-size: larger;
@@ -39,13 +50,15 @@ h1, h2 {
 }
 
 .main {
-  max-width: 90%;
+    margin: auto;
+  max-width: 80%;
   /* background-color: aqua; */
 }
 
 .img__aside {
-  width: 5rem;
-  height: 5rem;
+    margin: 1rem;
+  width: 7rem;
+  height: 7rem;
 }
 
 .section__Tribunal{
@@ -55,8 +68,56 @@ h1, h2 {
 }
 
 .About__Tribunal{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 80%;
-    gap: 4rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+
+   p{
+    width: 70%;
+   }
+}
+
+.aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer{
+    margin: 3rem auto 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0;
+    font-size: small;
+}
+
+
+/* Parte 2 Products */
+
+.container__products{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(190, 197, 197);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.section__product{
+    border-radius: 1rem;
+    background-color: rgb(210, 211, 211);
+    padding: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    p{
+        width: 70%;
+    }
+}
+
+.aside__product img{
+    width: 7rem;
 }
