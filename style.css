@@ -44,8 +44,9 @@ h1, h2 {
 }
 
 .img__aside {
-  width: 5rem;
-  height: 5rem;
+    margin: 1rem;
+  width: 7rem;
+  height: 7rem;
 }
 
 .section__Tribunal{
@@ -55,8 +56,19 @@ h1, h2 {
 }
 
 .About__Tribunal{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 80%;
-    gap: 4rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 90%;
+
+   p{
+    width: 70%;
+   }
+}
+
+.aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
 }
